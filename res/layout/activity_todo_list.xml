@@ -18,7 +18,7 @@
         android:text="TextView" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/todoName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView1"
@@ -29,7 +29,7 @@
     </EditText>
 
     <ListView
-        android:id="@+id/mylist"
+        android:id="@+id/todoItems"
         android:layout_width="match_parent"
         android:layout_height="153dp"
         android:layout_alignLeft="@+id/textView1"
@@ -42,10 +42,9 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/editText1"
-        android:layout_marginLeft="17dp"
-        android:layout_marginTop="14dp"
+        android:layout_above="@+id/todoItems"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
         android:text="@string/btnSearch" />
 
 </RelativeLayout>
